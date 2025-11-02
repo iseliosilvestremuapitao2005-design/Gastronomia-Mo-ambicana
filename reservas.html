@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Gastronomia Moçambicana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gastronomia Moçambicana</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="menu.html">Menu</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Faça a sua Reserva</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="data">Data:</label><br>
+            <input type="date" id="data" name="data" required><br><br>
+
+            <label for="hora">Hora:</label><br>
+            <input type="time" id="hora" name="hora" required><br><br>
+
+            <label for="pessoas">Número de pessoas:</label><br>
+            <input type="number" id="pessoas" name="pessoas" min="1" required><br><br>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gastronomia Moçambicana</p>
+    </footer>
+</body>
+</html>
